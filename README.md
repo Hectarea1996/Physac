@@ -12,7 +12,17 @@ _Note: The example code uses raylib programming library to create the program wi
 Installation
 -----
 
-Physac requires raylib. To get it, follow the next steps:
+Installing a shared library is really easy with CMake. This will add the header into the system's include directory (`/usr/local/include` in Linux) and the shared library into the system's lib directory (`libphysac.so` into `/usr/local/lib` in Linux).
+
+``` shell
+cd /path/to/your/repositories
+mkdir build && cd build
+cmake ..
+make
+sudo make install
+```
+
+Physac's examples requires raylib. To get it, follow the next steps:
 
     * Go to [raylib](https://www.github.com/raysan5/raylib) and clone the repository.
     * Ensure to pull the last changes of 'master' branch.
