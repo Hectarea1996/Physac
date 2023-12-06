@@ -87,3 +87,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# CMake
+# =========================
+
+build
