@@ -16,6 +16,7 @@ Installing a shared library is really easy with CMake. This will add the header 
 
 ``` shell
 cd /path/to/your/repositories
+git clone https://github.com/Hectarea1996/Physac.git
 mkdir build && cd build
 cmake ..
 make
